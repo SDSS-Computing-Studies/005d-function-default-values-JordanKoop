@@ -25,3 +25,5 @@ def title(symbol="="):
     for i in range(1,10):
         final = final + str(symbol)
     return final
+    
+    assert title() == "=========\n= Title =\n========="
